@@ -8,13 +8,29 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    /* background-color: #C8AAAA; */
 }
 
 .main {
     flex: 1;
+    height: 100vh;
+    margin: 0 25vw;
+}
+
+.etch {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .grid {
-    background-color: lightgray;
-    border: 2px solid darkgray;
+    background-color: #9ACBD0;
+    flex: 0 1 auto;
+    width: 10vh;
+    height: 10vh;
+
+}
+
+.grid:hover {
+    background-color: #638083;
 }
