@@ -16,8 +16,12 @@ function reGrid() {
         grid.style.height = `calc(100%/${rows}`;
         grid.style.width = `calc(100%/${rows}`;
         etch.appendChild(grid);
+        let opacity = 1;
         grid.addEventListener('mouseover', event => {
-            grid.style.backgroundColor = '#FFF000';
+            // grid.style.backgroundColor = '#FFF';
+            opacity -= 0.1;
+            grid.style.opacity = opacity.toString();
+
         })
     }
 }
