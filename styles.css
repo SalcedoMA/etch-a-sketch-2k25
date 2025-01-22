@@ -45,15 +45,16 @@ body {
     height: 85vh;
     width: 85vh;
     display: none;
+    background-color: black;
 }
 
 .grid {
     background-color: #9ACBD0;
 }
 
-.grid:hover {
+/* .grid:hover {
     background-color: #638083;
-}
+} */
 
 
 
