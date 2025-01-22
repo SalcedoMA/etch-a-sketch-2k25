@@ -8,7 +8,6 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    /* background-color: #C8AAAA; */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #c2c8c9;
 }
@@ -18,21 +17,34 @@ body {
     font-weight: 900;
     color: #2b2b2b;
     padding: 1vh;
+    position: absolute;
 }
 
 .main {
     flex: 1;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    gap: 0.5rem;
+}
+
+#regrid {
+    background-color: #2b2b2b;
+    color: #9ACBD0;
+    border: none;
+    padding: 0.5em 1.5em;
+    border-radius: 0.25em;
+    font-size: 6rem;
+    font-weight:600;
 }
 
 .etch {
-    /* margin: auto; */
     display: flex;
     flex-wrap: wrap;
-    height: 90vh;
-    width: 90vh;
-    /* min-width: 90vh; */
+    height: 85vh;
+    width: 85vh;
+    display: none;
 }
 
 .grid {
